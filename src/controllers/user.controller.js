@@ -1,6 +1,9 @@
 const user = require('../model/user.model');
 
 module.exports = {
+    async home(req, res){
+        return res.json({message: "Hello world"})
+    },
     async register(req, res){
         const userEmail = await user.findOne({email: req.body.email});
         if(!userEmail){
