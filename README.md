@@ -2,11 +2,9 @@
 
 ## Descrição do Projeto
 
-https://img.shields.io/github/license/JoaoVitorSoares10/user-manager
-
 O User Manager é um sistema de gerencia de usuários
 
-<p align="center">
+<p>
  <a href="#Features">Features</a> •
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#🎲 Rodando o Back End">Rodando o Back End</a> • 
