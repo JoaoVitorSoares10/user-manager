@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-O User Manager é um sistema de gerencia de usuários
+O User Manager é um sistema de gerência de usuários
 
 ### 🚧 User Manager em construção...  🚧
 
