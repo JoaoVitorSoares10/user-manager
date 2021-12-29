@@ -36,6 +36,18 @@ userSchema.pre('save', async function(next){
     } catch (err) {
         return next(err);
    }
-})
+});
+
+userSchema.pre('findOneAndUpdate', function(next){
+    try{
+        let usePassword = this.getUpdate().password+'';
+        if(usePassword.length < 55){
+            this.getUpdate().password = bcrypt.hashSync(usePassword, 10)
+        }
+        return next();
+    }catch(err){
+        return next(err);
+    }
+});
 
 module.exports = mongoose.model("Users", userSchema);

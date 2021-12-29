@@ -41,23 +41,8 @@ $ cd user-manager
 # Instale as dependências
 $ npm install
 
-# Instale o express
-$ npm install express --save
-
-# Instale o cookieParser
-$ npm install cookie-parser
-
-# Instale o Cors
-$ npm install Cors
-
-# Instale o Path
-$ npm install Path
-
-# Instale o mongoose
-$ npm install mongoose
-
-# Instale o bcrypt
-$ npm install bcrypt
+#Instalação de todas as bibliotecas no mesmo comando
+$ npm install express cors path cookie-parser mongoose bcrypt
 
 # Execute a aplicação 
 $ node server.js

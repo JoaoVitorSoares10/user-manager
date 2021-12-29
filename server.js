@@ -5,7 +5,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const routes = require('./src/routes');
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 const app = express();
 
 mongoose.connect('mongodb://localhost:27017/user_manager', {
