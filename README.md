@@ -25,7 +25,7 @@ O User Manager é um sistema de gerência de usuários
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [mongodb compass](https://www.mongodb.com/products/compass).
-Além disso é necessário instalar as seguintes bibliotecas ao seu projeto:
+Além disso, no projeto serão instaladas as seguintes bibliotecas ao seu projeto:
 [Express](https://expressjs.com/pt-br/), [cookieParser](https://www.npmjs.com/package/cookie-parser), [Cors](https://www.npmjs.com/package/cors), [path](https://www.npmjs.com/package/path),
 [Mongoose](https://mongoosejs.com/) e [bcrypt](https://www.npmjs.com/package/bcrypt).
 
@@ -40,9 +40,6 @@ $ cd user-manager
 
 # Instale as dependências
 $ npm install
-
-#Instalação de todas as bibliotecas no mesmo comando
-$ npm install express cors path cookie-parser mongoose bcrypt
 
 # Execute a aplicação 
 $ node server.js
